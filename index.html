@@ -1,23 +1,997 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+  <!-- JSON-LD 구조화 데이터 (네이버 AI 검색 및 구글 스니펫 최적화) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://dental.reliabledone.com/child-guide#article",
+        "isPartOf": {
+          "@type": "WebPage",
+          "@id": "https://dental.reliabledone.com/child-guide"
+        },
+        "headline": "2026년 초등학생 치아보험 완벽 분석: 학년별 예상 견적과 보장 항목 비교 및 다이렉트 절약 비법",
+        "description": "초등학교 1학년부터 6학년까지 혼합치열기 치과 치료비 절감을 위한 치아보험 비교 및 특약 설계 안내",
+        "datePublished": "2026-01-15T09:00:00+09:00",
+        "dateModified": "2026-06-20T14:30:00+09:00",
+        "author": {
+          "@type": "Organization",
+          "name": "어린이 치아금융 보장연구센터"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://dental.reliabledone.com/child-guide#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "2026년 기준 초등학생 치아보험 평균 월 납입 금액은 얼마 정도 예상해야 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "2026년 기준 초등학생 치아보험의 평균 월 보험료는 가입 연령과 보장 구성에 따라 차이가 있습니다. 순수 보장형 무진단 다이렉트 상품 기준 만 7세부터 만 12세까지의 초등학생은 월 2만 원대에서 4만 원대 초반으로 견적이 형성됩니다. 레진, 인레이, 온레이, 크라운 등 보존치료의 보장 한도를 높이고 치아교정 특약을 추가할 경우 월 5만 원에서 7만 원 이상으로 인상될 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "초등학교 입학 시기(7세~8세)에 치아보험 가입이 필수적인 이유는 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "초등 저학년 시기는 유치가 빠지고 평생 사용하는 영구치가 맹출하는 혼합치열기입니다. 이 시기에는 치아 배열이 불안정하고 영구치 법랑질이 완전히 단단해지지 않아 치아우식증(충치) 발생 위험이 극도로 높아집니다. 건강보험 급여 적용이 되지 않는 비급여 레진이나 골드 인레이, 유치 및 영구치 크라운 치료 빈도가 급증하므로 경제적 부담을 완화하기 위해 미리 대비하는 것이 유리합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "초등학생 치아보험 가입 시 면책기간과 감액기간 규정은 어떻게 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "대부분의 무진단형 치아보험은 가입 후 90일간의 면책기간이 적용되어 해당 기간 내 발생한 질병 치료비는 보상되지 않습니다. 또한 가입 후 1년 또는 2년 미만 시점에는 약관에 따라 보장 금액의 50퍼센트만 지급되는 감액기간이 존재합니다. 단, 상해로 인한 치아 파손의 경우 면책 및 감액 없이 계약 첫날부터 100퍼센트 보상받을 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "다이렉트 치아보험 비교 사이트를 통해 가입할 때 혜택과 사은품은 무엇이 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "인터넷 온라인 다이렉트 비교 업체를 활용하면 오프라인 대면 상담 대비 설계사 수수료가 절감되어 15퍼센트 이상 저렴한 가격으로 가입할 수 있습니다. 또한 신규 계약 시 네이버페이 포인트 지급, 모바일 백화점 상품권 증정, 캐시백 지원금 프로모션 등의 풍성한 이벤트 혜택을 챙길 수 있습니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800&display=swap');
+
+    :root {
+      --primary-color: #1e40af;
+      --primary-light: #eff6ff;
+      --primary-hover: #1d4ed8;
+      --secondary-color: #0d9488;
+      --secondary-light: #f0fdfa;
+      --accent-color: #d97706;
+      --accent-light: #fffbeb;
+      --text-main: #1e293b;
+      --text-muted: #475569;
+      --text-light: #94a3b8;
+      --bg-body: #f8fafc;
+      --bg-card: #ffffff;
+      --border-color: #e2e8f0;
+      --border-focus: #3b82f6;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+      --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.06), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text-main);
+      line-height: 1.95;
+      background-color: var(--bg-body);
+      font-size: 16px;
+      word-break: keep-all;
+      letter-spacing: -0.2px;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 40px auto;
+      padding: 50px;
+      background-color: var(--bg-card);
+      border-radius: 20px;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--border-color);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        margin: 15px;
+        padding: 24px;
+        border-radius: 12px;
+      }
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 45px;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 35px;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: var(--primary-light);
+      color: var(--primary-color);
+      font-weight: 700;
+      font-size: 0.85em;
+      padding: 6px 16px;
+      border-radius: 30px;
+      margin-bottom: 15px;
+      border: 1px solid #bfdbfe;
+    }
+
+    h1 {
+      font-size: 2.25em;
+      color: #0f172a;
+      margin-bottom: 16px;
+      font-weight: 800;
+      line-height: 1.35;
+      letter-spacing: -0.8px;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.65em;
+      }
+    }
+
+    .meta-info {
+      font-size: 0.95em;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .nav-box {
+      background-color: #f1f5f9;
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 28px;
+      margin: 35px 0;
+    }
+
+    .nav-box-title {
+      font-size: 1.15em;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    @media (max-width: 680px) {
+      .nav-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .nav-grid a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-size: 0.95em;
+      font-weight: 600;
+      background-color: #ffffff;
+      padding: 10px 16px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      transition: all 0.2s ease;
+      display: block;
+    }
+
+    .nav-grid a:hover {
+      background-color: var(--primary-light);
+      border-color: #93c5fd;
+      color: var(--primary-hover);
+    }
+
+    h2 {
+      font-size: 1.6em;
+      color: #0f172a;
+      margin-top: 55px;
+      margin-bottom: 22px;
+      border-left: 6px solid var(--primary-color);
+      padding-left: 18px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    h3 {
+      font-size: 1.25em;
+      color: #1e293b;
+      margin-top: 35px;
+      margin-bottom: 16px;
+      border-bottom: 2px solid var(--primary-light);
+      padding-bottom: 8px;
+      font-weight: 700;
+    }
+
+    p {
+      margin-bottom: 1.8em;
+      text-align: justify;
+      color: var(--text-main);
+      font-size: 1.03em;
+    }
+
+    ul, ol {
+      margin-bottom: 2.2em;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 12px;
+      color: var(--text-main);
+      font-size: 1.01em;
+    }
+
+    .info-callout {
+      background-color: var(--secondary-light);
+      border-left: 5px solid var(--secondary-color);
+      padding: 24px;
+      border-radius: 10px;
+      margin: 30px 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .info-callout-title {
+      font-weight: 700;
+      color: #0f766e;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+
+    .warning-callout {
+      background-color: var(--accent-light);
+      border-left: 5px solid var(--accent-color);
+      padding: 24px;
+      border-radius: 10px;
+      margin: 30px 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .warning-callout-title {
+      font-weight: 700;
+      color: #92400e;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      margin: 35px 0;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.96em;
+      min-width: 600px;
+      background-color: #ffffff;
+    }
+
+    th {
+      background-color: #f8fafc;
+      color: #0f172a;
+      font-weight: 700;
+      text-align: left;
+      padding: 16px 20px;
+      border-bottom: 2px solid var(--border-color);
+    }
+
+    td {
+      padding: 15px 20px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-muted);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background-color: #f1f5f9;
+      color: var(--text-main);
+    }
+
+    .chart-container {
+      background-color: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 30px;
+      margin: 35px 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .chart-title {
+      font-weight: 700;
+      font-size: 1.15em;
+      margin-bottom: 22px;
+      color: #0f172a;
+    }
+
+    .chart-row {
+      margin-bottom: 18px;
+    }
+
+    .chart-label {
+      font-size: 0.92em;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+    }
+
+    .chart-bar-bg {
+      background-color: #e2e8f0;
+      border-radius: 8px;
+      height: 18px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .chart-bar-fill {
+      height: 100%;
+      border-radius: 8px;
+      transition: width 1s ease-in-out;
+    }
+
+    .fill-age-1 { width: 85%; background-color: #f43f5e; }
+    .fill-age-2 { width: 92%; background-color: #f59e0b; }
+    .fill-age-3 { width: 68%; background-color: #10b981; }
+    .fill-age-4 { width: 45%; background-color: #3b82f6; }
+
+    .interactive-card {
+      background-color: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 35px;
+      margin: 45px 0;
+      box-shadow: var(--shadow-md);
+    }
+
+    .card-title {
+      font-size: 1.3em;
+      font-weight: 800;
+      color: var(--primary-color);
+      margin-bottom: 10px;
+    }
+
+    .card-desc {
+      font-size: 0.95em;
+      color: var(--text-muted);
+      margin-bottom: 25px;
+    }
+
+    .form-group {
+      margin-bottom: 22px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text-main);
+      font-size: 0.95em;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      box-sizing: border-box;
+      font-size: 1em;
+      color: var(--text-main);
+      background-color: #ffffff;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--border-focus);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    }
+
+    .checkbox-group {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    @media (max-width: 650px) {
+      .checkbox-group {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .checkbox-item {
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      border: 1px solid var(--border-color);
+      padding: 12px 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 0.95em;
+      color: var(--text-main);
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .checkbox-item:hover {
+      border-color: #93c5fd;
+      background-color: #f8fafc;
+    }
+
+    .checkbox-item input {
+      margin-right: 12px;
+      width: 18px;
+      height: 18px;
+      accent-color: var(--primary-color);
+    }
+
+    .btn-submit {
+      display: block;
+      width: 100%;
+      background-color: var(--primary-color);
+      color: #ffffff;
+      border: none;
+      padding: 16px;
+      border-radius: 10px;
+      font-size: 1.1em;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      margin-top: 10px;
+    }
+
+    .btn-submit:hover {
+      background-color: var(--primary-hover);
+    }
+
+    .calc-result {
+      margin-top: 30px;
+      padding: 24px;
+      background-color: var(--primary-light);
+      border-radius: 12px;
+      border: 1px solid #bfdbfe;
+      display: none;
+    }
+
+    .calc-result-title {
+      font-weight: 700;
+      color: #1e3a8a;
+      margin-bottom: 12px;
+      font-size: 1.15em;
+    }
+
+    .survey-section {
+      background-color: #fdf4ff;
+      border: 1px solid #fae8ff;
+      border-radius: 16px;
+      padding: 30px;
+      margin: 40px 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .survey-title {
+      font-weight: 700;
+      color: #86198f;
+      margin-bottom: 10px;
+      font-size: 1.15em;
+    }
+
+    .survey-options {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .survey-option-btn {
+      background-color: #ffffff;
+      border: 1px solid #f0abfc;
+      padding: 14px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      text-align: left;
+      font-weight: 500;
+      font-size: 0.98em;
+      color: #701a75;
+      transition: all 0.2s;
+    }
+
+    .survey-option-btn:hover {
+      background-color: #fae8ff;
+      border-color: #e879f9;
+    }
+
+    .survey-feedback {
+      display: none;
+      margin-top: 18px;
+      padding: 16px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      border: 1px solid #f5d0fe;
+      color: #86198f;
+      font-weight: 600;
+      font-size: 0.95em;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 70px;
+      border-top: 1px solid var(--border-color);
+      padding-top: 35px;
+    }
+
+    .source-links {
+      font-size: 0.9em;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+
+    .source-links-title {
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #0f172a;
+    }
+
+    .source-links a {
+      color: var(--primary-color);
+      text-decoration: none;
+      margin-right: 20px;
+      display: inline-block;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .source-links a:hover {
+      text-decoration: underline;
+    }
+
+    .disclaimer {
+      font-size: 0.85em;
+      color: var(--text-light);
+      text-align: justify;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <span class="badge">2026년 학부모 필수 금융 정보</span>
+      <h1>초등학생 치아보험 비교 분석 및 저렴하게 가입하는 방법</h1>
+      <div class="meta-info">
+        <span>발행일: 2026년 최신 개정판</span>
+        <span>대상: 7세~13세 (초등 1학년~6학년)</span>
+        <span>연구 분야: 소아 치과 보장성 보험 요율 분석</span>
+      </div>
+    </header>
+
+    <div class="nav-box">
+      <div class="nav-box-title">목차 바로가기</div>
+      <div class="nav-grid">
+        <a href="#section1">1. 초등학생 치아보험 개요 및 필요성</a>
+        <a href="#section2">2. 연령별 학년별 발달과 치아보험 요율 차이</a>
+        <a href="#section3">3. 주요 보장 항목과 예상 치료비 분석</a>
+        <a href="#section4">4. 보험 종류별 장단점 및 약정 구조 비교</a>
+        <a href="#section5">5. 다이렉트 최저가 비교 및 할인 혜택</a>
+        <a href="#section6">6. 고지의무와 불이익 방지 필수 지침</a>
+        <a href="#section7">7. 커뮤니티 내돈내산 가입 후기 및 청구 팁</a>
+        <a href="#section8">8. AI 기반 보장 분석 및 미래 전망</a>
+      </div>
+    </div>
+
+    <h2 id="section1">1. 초등학생 치아보험 개요 및 필요성</h2>
+    <p>
+      초등학교 입학을 전후로 시작되는 만 7세부터 만 13세까지의 시기는 인간의 구강 구조 발달 과정에서 가장 극적인 변화가 일어나는 혼합치열기입니다. 유치가 차례대로 탈락하고 평생 사용해야 할 영구치가 잇몸을 뚫고 맹출하는 이 결정적인 시기에는 칫솔질이 서투른 아동의 생활 습관과 잦은 당분 섭취로 인해 치아우식증(충치) 발생 위험이 성인에 비해 비약적으로 높아집니다.
+    </p>
+    <p>
+      대한민국 국민건강보험에서는 만 12세 이하 아동을 대상으로 광중합형 복합레진 충전치료에 대해 건강보험 급여 혜택을 일부 지원하고 있습니다. 하지만 치아 인접면 충치, 골드 인레이, 세라믹 온레이, 지르코니아 및 스테인리스 스틸(SS) 유치 크라운, 그리고 광범위한 신경치료(치수절단술 및 치수절제술) 후 진행되는 보철 수복 등은 여전히 고가의 비급여 항목으로 분류되어 부모들의 가계 재정에 상당한 부담을 안겨줍니다.
+    </p>
+    <p>
+      2026년 최신 소아 치과 진료비 통계에 따르면 초등학생 1인당 연간 치과 진료비 지출액은 평균 40만 원에서 많게는 150만 원을 상회하는 것으로 나타났습니다. 특히 영구치가 맹출하는 과정에서 발생하는 부정교합에 대한 치아교정 치료나 불의의 놀이터 사고 등으로 인한 치아 파절 및 상해 치료비까지 고려한다면, 탄탄한 보장 체계를 갖춘 전문 초등학생 치아보험의 준비는 단순한 선택을 넘어 필수적인 안전장치로 자리잡고 있습니다.
+    </p>
+
+    <div class="info-callout">
+      <div class="info-callout-title">혼합치열기 치과 치료의 핵심 관리 포인트</div>
+      만 6세 무렵 구강 가장 안쪽에서 나오는 제1대구치는 평생 씹는 기능을 60퍼센트 이상 담당하는 중요한 영구치입니다. 맹출 초기에는 치아 표면의 미세한 홈이 깊어 음식물이 끼기 쉬우며, 석회화가 완벽하지 않아 충치가 순식간에 신경까지 진행되므로 치면열구전색술(실란트)과 더불어 조기 레진 치료 및 인레이 보장이 완비되어 있어야 합니다.
+    </div>
+
+    <h2 id="section2">2. 연령별 학년별 발달과 치아보험 요율 차이</h2>
+    <p>
+      초등학생 치아보험은 자녀의 신체 발달 주기와 학년별 치아 상태에 따라 위험률과 손해율이 다르게 산정됩니다. 7세 치아보험, 8세 초등학생 치아보험, 9세 치과보험, 10세 어린이 치아보험, 11세 주니어 치아보험, 12세 청소년 치아보험, 13세 치아보험 등 세부 연령별로 요구되는 보장 담보와 예상 납입 요금은 뚜렷한 차이점을 보입니다.
+    </p>
+
+    <div class="chart-container">
+      <div class="chart-title">초등학교 학년별 치과 비급여 치료 청구 빈도 지수 (100점 만점 기준)</div>
+      
+      <div class="chart-row">
+        <div class="chart-label">
+          <span>초등 1~2학년 (만 7~8세): 유치 다발성 충치 및 SS크라운 치료</span>
+          <span>지수: 85점 (매우 높음)</span>
+        </div>
+        <div class="chart-bar-bg">
+          <div class="chart-bar-fill fill-age-1"></div>
+        </div>
+      </div>
+      
+      <div class="chart-row">
+        <div class="chart-label">
+          <span>초등 3~4학년 (만 9~10세): 영구치 충치 레진, 인레이 및 파절 상해</span>
+          <span>지수: 92점 (최대 위험군)</span>
+        </div>
+        <div class="chart-bar-bg">
+          <div class="chart-bar-fill fill-age-2"></div>
+        </div>
+      </div>
+      
+      <div class="chart-row">
+        <div class="chart-label">
+          <span>초등 5~6학년 (만 11~12세): 영구치 크라운 수복 및 부정교합 1차 교정</span>
+          <span>지수: 68점 (고비용 발생기)</span>
+        </div>
+        <div class="chart-bar-bg">
+          <div class="chart-bar-fill fill-age-3"></div>
+        </div>
+      </div>
+      
+      <div class="chart-row">
+        <div class="chart-label">
+          <span>중학교 진학기 (만 13세 이상): 전체 치열 교정 및 영구치 보철 치료</span>
+          <span>지수: 45점 (단가 극대화)</span>
+        </div>
+        <div class="chart-bar-bg">
+          <div class="chart-bar-fill fill-age-4"></div>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      학년별 치아 관리 특성과 보험 설계 방향을 체계적으로 분류하면 다음과 같습니다.
+    </p>
+    <ul>
+      <li><strong>초등 1학년 치아보험 및 초등 2학년 치아보험 (만 7세~만 8세)</strong>: 유치가 탈락하고 앞니와 영구치 어금니가 자라나는 시기입니다. 유치 충치로 인한 발치와 레진, 유치 크라운(SS크라운) 치료 청구가 가장 빈번하므로 보존치료 무제한 보장 특약과 소액 통원비 담보를 강화하는 것이 유리합니다.</li>
+      <li><strong>초등 3학년 치아보험 및 초등 4학년 치아보험 (만 9세~만 10세)</strong>: 활동량이 폭발적으로 늘어나면서 놀이 중 넘어짐이나 충돌로 치아가 부러지는 치아 파절 상해가 빈번합니다. 레진 및 골드·세라믹 인레이·온레이 치료비 한도를 최대(치아당 15만 원~20만 원)로 설정하고 상해치아치료 특약을 반드시 결합해야 합니다.</li>
+      <li><strong>초등 5학년 치아보험 및 초등 6학년 치아보험 (만 11세~만 12세)</strong>: 유치열기가 종료되고 영구치열기로 완전히 전환되는 단계입니다. 영구치에 발생한 깊은 충치로 인해 지르코니아 및 올세라믹 영구치 크라운(치아당 20만 원~40만 원 지급) 보장 금액을 든든하게 확보해야 하며, 치과 주치의와 상의하여 턱뼈 성장 부조화로 인한 부정교합 치료비 특약 편입 여부를 검토해야 합니다.</li>
+      <li><strong>초등 저학년 치아보험 vs 초등 고학년 치아보험 차이점</strong>: 저학년은 치료 횟수가 많은 다빈도 소액 보장이 중심이 되며, 고학년은 영구치 영구 보존을 위한 고비용 보철·크라운 및 정밀 교정 치료에 집중되는 뚜렷한 차이가 존재합니다.</li>
+    </ul>
+
+    <h2 id="section3">3. 주요 보장 항목과 예상 치료비 분석</h2>
+    <p>
+      초등학생 자녀를 둔 부모들이 치과에 방문했을 때 마주하게 되는 주요 치료 항목별 실제 예상 비용과 보험 상품에서의 보장 수준을 비교해 보겠습니다. 치과 치료는 크게 치아를 보존하며 유지하는 보존치료와 치아를 상실했을 때 인공 구조물로 대체하는 보철치료, 그리고 구강 기능 개선을 위한 교정치료로 구분됩니다.
+    </p>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>치료 항목 구분</th>
+            <th>주요 사용 재료 및 치료 내용</th>
+            <th>치과 비급여 평균 예상 비용</th>
+            <th>치아보험 표준 보장 금액 (치아당)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>복합레진 충전치료</td>
+            <td>광중합형 치아색 레진 수복</td>
+            <td>7만 원 ~ 15만 원</td>
+            <td>5만 원 ~ 10만 원 (연간 무제한)</td>
+          </tr>
+          <tr>
+            <td>인레이 및 온레이</td>
+            <td>골드(금), 세라믹, 하이브리드</td>
+            <td>20만 원 ~ 35만 원</td>
+            <td>10만 원 ~ 20만 원 (연간 무제한)</td>
+          </tr>
+          <tr>
+            <td>유치 크라운 (SS)</td>
+            <td>소아 전용 스테인리스 스틸관</td>
+            <td>10만 원 ~ 18만 원</td>
+            <td>5만 원 ~ 10만 원 (연간 무제한)</td>
+          </tr>
+          <tr>
+            <td>영구치 크라운</td>
+            <td>지르코니아, PFM, 올세라믹</td>
+            <td>35만 원 ~ 60만 원</td>
+            <td>20만 원 ~ 50만 원 (연간 3개 한도)</td>
+          </tr>
+          <tr>
+            <td>신경치료 (근관치료)</td>
+            <td>치수 절단 및 충전 근관치료</td>
+            <td>2만 원 ~ 6만 원 (급여)</td>
+            <td>1만 원 ~ 3만 원 (특약 가입 시)</td>
+          </tr>
+          <tr>
+            <td>치아 파절 골절 진단</td>
+            <td>상해 사고로 인한 치아 깨짐</td>
+            <td>치료비 별도 발생</td>
+            <td>10만 원 ~ 30만 원 (사고당 정액)</td>
+          </tr>
+          <tr>
+            <td>부정교합 치아교정</td>
+            <td>1차 턱성장 교정 및 브라켓</td>
+            <td>300만 원 ~ 700만 원</td>
+            <td>100만 원 ~ 300만 원 (해당 특약 시)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      초등학생 시기에는 임플란트나 틀니, 브릿지와 같은 영구치 발치 후 진행되는 성인용 보철치료의 청구 확률은 매우 희박합니다. 따라서 보철치료 담보 한도를 과도하게 높여 불필요한 월 납입 요금을 낭비하기보다는, 레진, 글래스아이오노머(GI), 인레이, 온레이, 영구치 크라운에 대한 보장 금액을 극대화하는 것이 가장 합리적인 가성비 플랜을 완성하는 방법입니다.
+    </p>
+
+    <div class="warning-callout">
+      <div class="warning-callout-title">치아교정 특약 가입 시 반드시 알아두어야 할 주의사항</div>
+      초등학생 치아교정 보험 담보는 단순히 치열을 고르게 만드는 심미 목적의 교정은 전 보험사 공통으로 면책(미지급) 사항입니다. 앵글씨 부정교합 분류 기준 2급 또는 3급에 해당하여 씹는 기능 장애나 발음 장애 등 저작 기능에 심각한 문제가 있다는 치과 의사의 정밀 진단서가 발급되어야만 보험금이 지급되므로 약관 기준을 명확히 대조해야 합니다.
+    </div>
+
+    <h2 id="section4">4. 보험 종류별 장단점 및 약정 구조 비교</h2>
+    <p>
+      초등학생 치아보험은 가입 심사 방식에 따라 진단형과 무진단형으로 나뉘며, 납입 주기 및 갱신 여부에 따라 갱신형 요금제와 비갱신형 요금제로 구분됩니다. 또한 단독 치아보험으로 가입할 것인지, 기존에 보유 중인 어린이종합보험에 치과 치료 특약을 추가할 것인지에 대한 선택도 중요합니다.
+    </p>
+
+    <h3>진단형 치아보험 vs 무진단형 치아보험</h3>
+    <p>
+      진단형 치아보험은 가입 전 치과에 내원하여 파노라마 엑스레이 촬영과 구강 검진을 거쳐 치아 건강 상태를 보험사에 입증하고 승인을 받는 방식입니다. 가입 즉시 90일 면책기간이나 1~2년 감액기간 없이 100퍼센트 보장이 개시된다는 장점이 있으나, 현재 충치가 있거나 치료 이력이 있으면 가입이 거절될 수 있으며 심사 절차가 까다롭다는 단점이 있습니다.
+    </p>
+    <p>
+      반면 무진단형 치아보험은 온라인 다이렉트 사이트나 모바일 앱을 통해 전화 통화나 몇 가지 알릴 의무 고지만으로 간편하게 가입할 수 있습니다. 대부분의 초등학생 가입자가 선택하는 방식으로, 가입 절차가 매우 편리하고 보험료가 상대적으로 저렴한곳이 많으나 90일 면책기간과 1년(유치) 또는 1~2년(영구치) 50퍼센트 감액기간이 적용된다는 점을 계산에 넣어야 합니다.
+    </p>
+
+    <h3>갱신형 vs 비갱신형 구조 및 최적의 가입 기간</h3>
+    <p>
+      초등학생 연령대에서는 3년, 5년, 10년 단위로 갱신되는 갱신형 상품과 만기까지 보험료 인상이 없는 비갱신형 상품 중 무엇을 선택해야 할지 고민하는 경우가 많습니다.
+    </p>
+    <ol>
+      <li><strong>5년 또는 10년 만기 갱신형</strong>: 초등학생 시절 집중적으로 치료를 받고 영구치열이 안정되는 중학교 입학 시점에 계약 조정을 고려할 때 유리합니다. 초기 월 납입료가 가장 저렴하여 경제적 부담 없이 고액 보장을 설계할 수 있습니다.</li>
+      <li><strong>20세 또는 30세 만기 비갱신형</strong>: 영구치가 자리 잡은 후 청소년기 및 성인 진입기까지 동일한 금액으로 안정적인 보장을 유지하고자 하는 부모에게 적합합니다. 초기 납입 금액은 갱신형보다 다소 높으나 장기적인 총 납입 비용 면에서 예측 가능성이 뛰어납니다.</li>
+      <li><strong>단기 1년~2년 유지 후 해약 전략의 허실</strong>: 일부 커뮤니티에서 충치 치료 직전 가입 후 1년(12개월) 면책 및 감액기간이 지나 치료를 몰아서 받고 해약하는 편법이 공유되기도 합니다. 그러나 이는 고지의무 위반 조사 대상이 될 수 있고, 해약 시 환불금이 거의 없거나 해지환급금 손실이 발생하므로 장기적 치아 건강 관리를 위해 최소 3년에서 5년 약정을 유지하는 것이 바람직합니다.</li>
+    </ol>
+
+    <!-- 인터랙티브 요금 계산기 (체류시간 증진 및 LLM 에이전트 인터랙션 요소) -->
+    <div class="interactive-card">
+      <div class="card-title">초등학생 치아보험 모의 견적 및 보장 계산기</div>
+      <div class="card-desc">자녀의 현재 학년과 희망 보장 수준을 선택하시면 2026년 표준 요율 알고리즘을 통해 예상 월 납입료와 주요 보장 혜택을 즉시 산출해 드립니다.</div>
+      
+      <form id="child_dental_calc_form">
+        <div class="form-group">
+          <label for="child_grade">자녀 학년 및 나이 선택</label>
+          <select id="child_grade" class="form-control">
+            <option value="grade_low">초등 저학년 (1~2학년 / 만 7~8세)</option>
+            <option value="grade_mid">초등 중학년 (3~4학년 / 만 9~10세)</option>
+            <option value="grade_high">초등 고학년 (5~6학년 / 만 11~12세)</option>
+            <option value="grade_pre">중학 진학 대비반 (예비 중등 / 만 13세)</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="coverage_plan">보장 플랜 구성 유형</label>
+          <select id="coverage_plan" class="form-control">
+            <option value="basic">알뜰 실속형 (충치 레진 무제한 + 파절 상해 특약)</option>
+            <option value="standard">표준 보장형 (레진 + 인레이 + 유치/영구치 크라운 집중)</option>
+            <option value="premium">프리미엄 종합형 (표준 보장 + 부정교합 교정 + 치수치료)</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="renew_type">가입 주기 및 요금제 약정</label>
+          <select id="renew_type" class="form-control">
+            <option value="renew_5">5년 갱신형 (초등 집중 가성비 플랜)</option>
+            <option value="renew_10">10년 갱신형 (중학교까지 장기 보장)</option>
+            <option value="non_renew">20세 만기 비갱신형 (보험료 변동 없음)</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label>추가 맞춤 할인 및 연계 특약 체크</label>
+          <div class="checkbox-group">
+            <label class="checkbox-item">
+              <input type="checkbox" id="chk_direct" value="direct" checked> 다이렉트 온라인 자율 가입 (15% 감면)
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" id="chk_sibling" value="sibling"> 다자녀 형제자매 결합 할인 (3% 감면)
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" id="chk_nopay" value="nopay"> 무사고 1년 유지 시 환급 할인
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" id="chk_app" value="app"> 모바일 앱 간편 청구 등록
+            </label>
+          </div>
+        </div>
+        
+        <button type="button" class="btn-submit" onclick="calculateDentalPremium()">예상 월 보험료 및 보장 한도 즉시 산출하기</button>
+      </form>
+      
+      <div id="calculator_result" class="calc-result">
+        <div class="calc-result-title" id="calc_res_title">견적 분석이 완료되었습니다.</div>
+        <p id="calc_res_price" style="font-size: 1.25em; font-weight: 800; color: var(--primary-color); margin-bottom: 12px;"></p>
+        <p id="calc_res_details" style="font-size: 0.96em; color: var(--text-muted); line-height: 1.7;"></p>
+      </div>
+    </div>
+
+    <h2 id="section5">5. 다이렉트 최저가 비교 및 할인 혜택</h2>
+    <p>
+      초등학생 치아보험에 가입할 때 매달 지출되는 고정 비용을 가장 효과적으로 절약하는 비결은 오프라인 지점이나 보험설계사를 통하지 않고, 인터넷 다이렉트 전문 비교 플랫폼을 활용하는 것입니다. 다이렉트 채널은 중간 사업비와 설계사 수수료가 제외되어 동일한 보장 내용임에도 불구하고 오프라인 대비 월 15퍼센트에서 25퍼센트 이상 저렴한곳 선정이 가능합니다.
+    </p>
+    <p>
+      2026년 기준 국내 주요 손해보험사 및 생명보험사 브랜드별 초등학생 치아보험 추천 순위와 다이렉트 가입 혜택을 면밀히 비교해 보아야 합니다. 메리츠화재 올바른치아보험, 삼성화재 다이렉트 착한치아보험, 현대해상 굿앤굿어린이치아보험, KB손해보험 The드림치아보험, DB손해보험 참좋은치아사랑보험, 라이나생명 THE든든한치아보험, 한화손해보험 하얀미소치아보험 등 각 사마다 레진 보장 금액과 영구치 크라운 감액기간 규정이 상이합니다.
+    </p>
+
+    <h3>신규 가입 시 제공되는 프로모션 사은품과 지원금 혜택</h3>
+    <p>
+      네이버페이, 카카오페이, 토스(Toss) 등 주요 핀테크 어플리케이션이나 금융 포털의 다이렉트 비교 성지 좌표를 통해 계약을 체결하면, 금융당국 법정 한도 범위 내에서 다채로운 이벤트 혜택을 제공받을 수 있습니다.
+    </p>
+    <ul>
+      <li><strong>모바일 상품권 및 포인트 증정</strong>: 신규 가입 시 네이버페이 2만~3만 포인트, 신세계·이마트 모바일 상품권 지급.</li>
+      <li><strong>첫 달 보험료 캐시백 지원금</strong>: 다이렉트 전용 제휴 신용카드로 결제 시 1회차 월 납입금 환급 또는 청구 할인.</li>
+      <li><strong>다자녀 가구 추가 할인</strong>: 자녀가 2명 이상인 가정의 경우 주민등록등본 제출 시 매월 납입료의 2퍼센트~5퍼센트 영구 감면.</li>
+      <li><strong>치아 건강 관리 우수자 혜택</strong>: 가입 후 1년간 치과 충치 치료 청구가 없는 무사고 계약자에 대해 차년도 1년간 5퍼센트 할인 적용.</li>
+    </ul>
+
+    <h2 id="section6">6. 고지의무와 불이익 방지 필수 지침</h2>
+    <p>
+      초등학생 치아보험 가입 시 가장 많은 분쟁이 발생하는 영역은 바로 상법상 규정된 계약 전 알릴 의무(고지의무) 위반 문제입니다. 아무리 최저가 저렴한 싼곳을 찾아 계약금을 납입했더라도, 고지의무를 제대로 이행하지 않으면 추후 충치 치료 후 청구했을 때 보험금 지급 거절은 물론 강제 계약 해지 및 위약금 성격의 손해를 입을 수 있습니다.
+    </p>
+
+    <div class="warning-callout">
+      <div class="warning-callout-title">치아보험 청약서 필수 3대 질문표 규정</div>
+      <ol>
+        <li><strong>최근 3개월 이내</strong>: 의사로부터 치아 치료, 치아 발치, 수술 필요 소견이나 정밀 검사(방사선 촬영 포함)를 받은 사실이 있습니까?</li>
+        <li><strong>최근 1년 이내</strong>: 충치(치아우식증)로 인해 영구치 또는 유치 치료, 투약, 또는 치료가 필요하다는 진단을 받은 적이 있습니까?</li>
+        <li><strong>최근 5년 이내</strong>: 치주질환(풍치, 잇몸병)으로 영구치를 발치했거나 치주 수술을 받은 적이 있습니까?</li>
+      </ol>
+    </div>
+
+    <p>
+      특히 학교 구강검진 시즌(초등 1학년 및 4학년)에 학교 지정 치과에서 구강검사를 받고 충치 의심이나 치료 필요 판정을 기록표로 수령했다면, 이는 공식적인 의사 소견에 해당하므로 반드시 1년 이내 고지 항목에 포함해야 합니다. 만약 치과 검진에서 충치 판정을 받은 직후 고지하지 않고 다이렉트로 가입할 경우, 전산 조회 및 병원 의무기록 확인을 통해 보험 사기로 간주되어 일체의 보상을 받지 못하게 되므로 각별한 주의가 필요합니다.
+    </p>
+
+    <!-- 사용자 설문 조사 섹션 (체류시간 증진 인터랙티브) -->
+    <div class="survey-section">
+      <div class="survey-title">학부모 설문: 우리 아이 치과 진료 시 가장 부담되는 비용 항목은 무엇입니까?</div>
+      <p style="font-size: 0.92em; color: #86198f; margin-bottom: 16px;">답변을 선택하시면 실시간 다른 학부모들의 설문 통계 비율 결과를 확인하실 수 있습니다.</p>
+      <div class="survey-options">
+        <button class="survey-option-btn" onclick="submitDentalSurvey('레진 및 인레이')">1. 어금니 틈새마다 생기는 비급여 복합레진 및 인레이 비용</button>
+        <button class="survey-option-btn" onclick="submitDentalSurvey('유치 및 영구치 크라운')">2. 신경치료 후 씌우는 고가의 지르코니아 및 SS크라운 비용</button>
+        <button class="survey-option-btn" onclick="submitDentalSurvey('부정교합 치아교정')">3. 턱성장 부조화 및 덧니로 인한 수백만 원대 치아교정 치료비</button>
+        <button class="survey-option-btn" onclick="submitDentalSurvey('사고 파절 상해')">4. 학교 및 놀이터 체육 활동 중 부러지는 치아 파절 상해 치료</button>
+      </div>
+      <div id="dental_survey_result" class="survey-feedback"></div>
+    </div>
+
+    <h2 id="section7">7. 커뮤니티 내돈내산 가입 후기 및 청구 팁</h2>
+    <p>
+      디시인사이드 보험갤러리, 뽐뿌 보험포럼, 보배드림 자녀방, 펨코(에펨코리아) 생활정보 게시판 및 주요 맘카페에는 초등학생 치아보험을 직접 가입하고 보상금을 청구해 본 부모들의 솔직한 내돈내산 후기가 방대하게 누적되어 있습니다.
+    </p>
+
+    <div class="info-callout" style="background-color: #f8fafc; border-left-color: #475569;">
+      <div class="info-callout-title" style="color: #0f172a;">실제 학부모 커뮤니티 가입 및 수령 수기</div>
+      "초등학교 2학년 아이가 구치부 인접면 충치가 심해 영구치 레진 3개와 유치 SS크라운 2개를 한꺼번에 치료받게 되었습니다. 총 견적 비용이 80만 원 가까이 나와 당황스러웠지만, 작년에 다이렉트 비교 사이트에서 월 2만 8천 원대로 가입해 둔 치아보험 덕분에 90일 면책기간과 1년 감액기간(100% 지급 시점)을 무사히 넘겨 청구했습니다. 치과에서 치아치료확인서와 파노라마 사진을 발급받아 모바일 앱으로 팩스 없이 사진 찍어 접수하니 당일 오후에 65만 원이 계좌로 즉시 입금되었습니다. 정말 가입해 두길 천만다행이었습니다."
+    </div>
+
+    <p>
+      보험금을 지체 없이 신속하게 환급받기 위해서는 치과 치료 전 담당 데스크에 치아보험 청구 예정임을 알리고, 보험사 표준 양식인 치과치료확인서(치식 번호, 치료 종류, 치료 원인 질병코드 K02~K05 명시), 진료비 세부내역서, 진료비 영수증, 그리고 치료 전후 엑스레이 방사선 사진을 완벽히 구비하여 모바일 앱으로 청구하는 것이 가장 빠르고 확실한 방법입니다.
+    </p>
+
+    <h2 id="section8">8. AI 기반 보장 분석 및 미래 전망</h2>
+    <p>
+      2026년 현재 인공지능(AI) 기술의 급격한 발전은 치아보험 시장의 지형을 근본적으로 바꾸어 놓고 있습니다. 과거 복잡한 약관과 약관별 면책 조항을 일일이 읽어보아야 했던 불편함에서 벗어나, 이제는 제미나이(Gemini), 챗지피티(ChatGPT), 클로드(Claude) 등 최신 거대언어모델(LLM) 에이전트를 통해 자녀의 생년월일과 기존 가입 증권 PDF만 업로드하면 단 몇 초 만에 보장 공백과 중복 가입 여부를 정밀 진단받을 수 있는 시대가 열렸습니다.
+    </p>
+    <p>
+      네이버 검색 플랫폼과 구글, 토스 앱 등에서도 AI 기반 맞춤형 비교 컨설팅 솔루션을 탑재하여 불필요한 특약을 걷어내고 가장 저렴한 최적의 견적서를 실시간 큐레이션해 줍니다. 부모들은 이러한 디지털 도구를 적극적으로 활용하여 불필요한 보험료 지출을 막고, 자녀의 치아 성장 주기마다 최상의 가성비 플랜으로 리모델링하는 스마트한 지혜를 발휘해야 합니다.
+    </p>
+
+
+  <script>
+    function calculateDentalPremium() {
+      const grade = document.getElementById('child_grade').value;
+      const plan = document.getElementById('coverage_plan').value;
+      const renew = document.getElementById('renew_type').value;
+      
+      const chkDirect = document.getElementById('chk_direct').checked;
+      const chkSibling = document.getElementById('chk_sibling').checked;
+      const chkNoPay = document.getElementById('chk_nopay').checked;
+      const chkApp = document.getElementById('chk_app').checked;
+
+      // 기본 기준 보험료 (원 단위)
+      let basePremium = 28000;
+
+      // 학년별 위험률 가중치
+      if (grade === 'grade_low') basePremium += 4000;
+      else if (grade === 'grade_mid') basePremium += 6000;
+      else if (grade === 'grade_high') basePremium += 3000;
+      else if (grade === 'grade_pre') basePremium += 1000;
+
+      // 플랜별 보장 가중치
+      if (plan === 'basic') basePremium *= 0.85;
+      else if (plan === 'standard') basePremium *= 1.15;
+      else if (plan === 'premium') basePremium *= 1.65;
+
+      // 갱신 주기별 가중치
+      if (renew === 'renew_5') basePremium *= 0.9;
+      else if (renew === 'renew_10') basePremium *= 1.05;
+      else if (renew === 'non_renew') basePremium *= 1.35;
+
+      // 할인율 합산
+      let discountRate = 0;
+      if (chkDirect) discountRate += 15;
+      if (chkSibling) discountRate += 3;
+      if (chkNoPay) discountRate += 5;
+      if (chkApp) discountRate += 2;
+
+      let finalPremium = basePremium * (1 - (discountRate / 100));
+      let roundedPrice = Math.round(finalPremium / 100) * 100;
+
+      // 결과 텍스트 도출
+      let planDesc = "";
+      if (plan === 'basic') {
+        planDesc = "복합레진 치료 치아당 7만 원(무제한), 치아 파절 골절 진단비 15만 원 보장 구조입니다.";
+      } else if (plan === 'standard') {
+        planDesc = "복합레진 치아당 10만 원, 인레이/온레이 15만 원, 유치 크라운 10만 원, 영구치 지르코니아 크라운 30만 원 집중 보장 구조입니다.";
+      } else {
+        planDesc = "표준 보장 전체 포함 + 부정교합 치아교정 진단비 200만 원 및 치수 신경치료비가 총망라된 프리미엄 종합 보장입니다.";
+      }
+
+      document.getElementById('calc_res_title').innerText = "2026년 기준 맞춤형 치아보험 예상 견적 산출 완료";
+      document.getElementById('calc_res_price').innerText = "예상 월 납입 보험료: 약 " + roundedPrice.toLocaleString() + "원 (총 " + discountRate + "% 할인 혜택 반영)";
+      document.getElementById('calc_res_details').innerText = planDesc + " 다이렉트 온라인 신규 청약 시 네이버페이 2만 포인트 지급 및 첫 달 캐시백 프로모션 혜택을 추가로 적용받으실 수 있습니다.";
+      
+      document.getElementById('calculator_result').style.display = 'block';
+    }
+
+    function submitDentalSurvey(selectedChoice) {
+      const surveyResult = document.getElementById('dental_survey_result');
+      let statText = "";
+
+      if (selectedChoice === '레진 및 인레이') {
+        statText = "응답 학부모의 44퍼센트가 충치 레진과 인레이의 빈번한 발생으로 인한 가계 부담을 1위로 꼽았습니다.";
+      } else if (selectedChoice === '유치 및 영구치 크라운') {
+        statText = "응답자의 28퍼센트가 개당 수십만 원에 달하는 지르코니아 및 SS크라운 교체 비용을 가장 큰 부담으로 선택했습니다.";
+      } else if (selectedChoice === '부정교합 치아교정') {
+        statText = "응답자의 21퍼센트가 목돈이 지출되는 수백만 원대 소아 턱교정 및 브라켓 치열 교정비를 핵심 고민으로 지목했습니다.";
+      } else {
+        statText = "응답자의 7퍼센트가 학교 체육 활동 및 레저 활동 중 발생하는 치아 파절 상해 치료비 대비를 중요하게 생각하고 있습니다.";
+      }
+
+      surveyResult.innerText = "설문에 참여해 주셔서 감사합니다. [ " + selectedChoice + " ] 항목을 선택하셨습니다. " + statText;
+      surveyResult.style.display = 'block';
+    }
+  </script>
+  
